@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная с постами типа</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static '/css/blog.css' %}">
+</head>
+<body>
+
+    <head>
+        <div class="content container">
+            <div class="row header">
+                <h1>Test my django site!</h1>
+            </div>
+        </div>
+    </head>
+
+    <div class="content container">
+        <div class="row">
+            {% block content %}           
+            {% endblock %}
+    </div>
+</body>
+</html>
+
