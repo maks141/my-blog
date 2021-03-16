@@ -8,6 +8,13 @@
 
 h1 {
     font-size: 45px;
-    text-align: center;
-    padding: 20px;
+    text-align: left;
 }
+
+ul li a{
+    color: black; 
+    font-size: 17px;
+}
+
+
+
