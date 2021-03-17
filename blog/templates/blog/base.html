@@ -14,8 +14,8 @@
     <head>
         <div class="content container">
             <div class="row header">
-                <h1>Test my django site!</h1>
-                <ul class="nav nav-pills row">
+                <h1 class='row'>Test my django site!</h1>
+                <ul class="row nav nav-pills">
                     <li class="nav-item">
                       <a class="nav-link active" href="/">Home</a>
                     </li>
@@ -23,8 +23,9 @@
                       <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
+                      <a href="{% url 'post_new' %}" class="nav-link">Добавить</a>
                     </li>
+
                   </ul>
             </div>
         </div>
